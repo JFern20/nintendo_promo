@@ -1,0 +1,73 @@
+html, body, 
+
+
+.body{
+ background:#FFFFFF;
+ background-color:#FFFFFF;
+ padding-bottom: 300px
+
+
+}
+
+.header{
+ background-color:$primary-color;
+ background:$primary-color;
+}
+
+.columns{
+ padding-bottom: 16px;
+ padding-top: 16px;
+
+
+
+.nintendo_logo{
+ width: 120px;
+ height:30px;
+ margin: 0 auto;
+
+ }
+}
+
+.sub-header{
+ background-color:#FFFFFF;
+ background:#FFFFFF;
+ border-bottom: solid 1px;
+ display:inline-block;
+
+ .columns{
+    padding-bottom: 5px;
+    padding-right: 40px !important;
+    padding-left: 40px !important;
+    padding-top: 5px;
+
+ a{
+ color:#484848;
+ font-size: 14px;
+ width: 103px;
+ height: 16px;
+
+ .sub-text{
+width:20px;
+margin-right: 5px;
+display: block;
+ }
+}
+th{
+ text-align: center;
+ padding: 1px;
+}
+
+.menu-divider{
+ max-width: 0;
+
+.divider{
+ width: 1px;
+ height: 22px;
+ color:#484848;
+ background-color:#484848;
+ display: inline-block;
+   }
+  }
+ }
+}
+
