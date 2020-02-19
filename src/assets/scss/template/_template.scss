@@ -74,7 +74,7 @@ padding-top: 0px !important;
 padding-right:0px !important;
 padding-bottom: 0px !important;
 
- & tbody > tr > th{
+ & > tbody > tr > th{
  	padding-left:0px !important;
 	padding-top: 0px !important;
 	padding-right:0px;
@@ -108,5 +108,23 @@ padding-top: 16px !important;
 padding-bottom: 0px;
 margin-bottom: 0;
 
+}
+
+.mario-section{
+	background:$primary-color;
+	background-color:$primary-color;
+	padding-bottom: 0px !important;
+	padding-left:0px !important;
+
+& > tbody > tr > th{
+	padding-right: 0px !important;
+}
+
+
+.columns{
+	padding-bottom: 0px !important;
+
+	
+ }
 }
 
