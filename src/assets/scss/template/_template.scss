@@ -141,8 +141,8 @@ margin-bottom: 0;
 
 .toby-game{
  width: 143px;
-
-
+ padding-right: 0px !important;
+ padding-top: 10px !important;
 }
 
 .game-img{
@@ -150,14 +150,67 @@ margin-bottom: 0;
 	padding-top: 0px !important;
 	padding-right:0px;
 	padding-bottom: 0px;
+	display: block;
 
 }
 
+.game-title-section{
+ padding-left: 0px !important;
+}
+
 .game-title{
-	color: #212121;
- font-size: 120%px;
+ color: #212121;
+ font-size: 126%;
  font-weight:bold;
  text-decoration:underline;
  font-family: Tahoma,Geneva,sans-serif;
 
+
+}
+
+.regular-price{
+ text-decoration: line-through;
+ padding-right: 5px;
+ font-size: 13px;
+
+}
+
+.red-price{
+	text-decoration: none;
+    color: $primary-color;
+    font-family: Tahoma,Geneva,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    padding-right: 6px;
+}
+
+.precentage-price{
+font-size: 13px;
+text-decoration: none;
+}
+
+
+.sale-end{
+	text-decoration: none;
+	color: #212121;
+	font-family: Tahoma,Geneva,sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0;
+	margin-bottom: 0;
+	padding: 0;
+
+}
+
+
+.rating{
+	color: #212121;
+	font-family: Verdana,Geneva,sans-serif;
+	font-size: 63%;
+	font-weight: normal;
+	margin: 0;
+	margin-bottom: 0;
+    padding-top: 10px;
+   
 }
