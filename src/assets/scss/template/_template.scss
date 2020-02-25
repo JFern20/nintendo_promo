@@ -34,6 +34,7 @@ html, body,
  border-bottom: solid 1px;
  display:inline-block;
  font-size: 14px !important;
+ hyphens: none;
 
  .columns{
     padding-bottom: 5px;
@@ -51,6 +52,7 @@ html, body,
 width:20px;
 margin-right: 5px;
 display: block;
+
  }
 }
 th{
@@ -90,7 +92,6 @@ padding-right:0px;
 padding-bottom: 0px;
 display: block;
 
-
 }
 
 .sub-section-text{
@@ -101,10 +102,10 @@ display: block;
 }
 
 .gold-points-text{
-color:$primary-color;
+color: $primary-color !important;
 font-size: 16px !important;
 font-weight: 700;
-padding-top: 16px !important;
+padding-top: 0px !important;
 padding-bottom: 0px;
 margin-bottom: 0;
 
@@ -120,9 +121,24 @@ margin-bottom: 0;
 	padding-right: 0px !important;
 }
 
+.mario-section-text{
+padding-left: 0px;
+padding-top: 25px;
+
+}
+
+.username{
+color: white !important;	
+padding-top:50px !important;
+padding-bottom: 0px;
+font-weight:900; 
+margin-bottom: 0px;
+}
+
+
 
 .columns{
-	padding-bottom: 0px !important;
+padding-bottom: 0px !important;
 
 	
  }
@@ -272,5 +288,5 @@ font-size:11px !important;
 margin:0;
 margin-bottom:0;
 padding-top: 30px;
-
+hyphens: none;
 }
