@@ -17,6 +17,10 @@ html, body,
 .columns{
  padding-bottom: 16px;
  padding-top: 16px;
+ padding-left: 0px !important;
+ padding-right: 0px !important;
+
+
 
 
 
@@ -31,16 +35,31 @@ html, body,
 .sub-header{
  background-color:#FFFFFF;
  background:#FFFFFF;
+ width: 104px !important;
+ height: 17px !important;
+ max-height: 100%;
  border-bottom: solid 1px;
  display:inline-block;
  font-size: 14px !important;
  hyphens: none;
+ white-space: nowrap; 
 
- .columns{
+.sub-header-column{
+padding-top: 0px !important;	
+padding-bottom: 0px !important;
+padding-left: 0px !important; 
+padding-right: 0px !important;
+
+
+
+
+.columns{
     padding-bottom: 5px;
     padding-right: 40px !important;
-    padding-left: 40px !important;
+    padding-left: 40px !important;  /*both are 40 original*/
     padding-top: 5px;
+    text-align: center;
+
 
  a{
  color:#484848;
@@ -51,13 +70,21 @@ html, body,
 .sub-text{
 width:20px;
 margin-right: 5px;
-display: block;
+display: inline-block;
 
+   
+  }
  }
 }
 th{
  text-align: center;
  padding: 1px;
+}
+
+.menu-divider{
+ padding-left: 40px !important;
+ padding-right:40px !important;
+
 }
 
 .divider{
@@ -66,9 +93,19 @@ th{
  color:#484848;
  background-color:#484848;
  display: inline-block;
+
+
    }
   }
  }
+
+ .sub-switch{
+ padding-right: 0px !important;
+ }
+
+.sub-my-nintendo{
+padding-left: 20px !important;
+}
 
 .my-nintendo-section{
 padding-left:0px !important;
