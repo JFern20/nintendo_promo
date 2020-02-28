@@ -83,7 +83,7 @@ th{
 
 .menu-divider{
  padding-left: 40px !important;
- padding-right:40px !important;
+ padding-right: 40px !important;
 
 }
 
@@ -282,7 +282,7 @@ background-color: $primary-color;
 	padding-top: 5px !important;
 	padding-right:0px !important;
 	padding-bottom: 0px !important;
-	
+
 
 
 & > table > tbody > tr > th{
@@ -298,11 +298,11 @@ padding-right: 50px !important;
 
 
 .social-icons{
-margin:0 none;
-width: 287px;
-height:75px;
-line-height: 100%;
-display: inline-block;
+margin:0 none ;
+width: 287px !important;
+height:75px !important;
+line-height: 100% !important;
+display: inline-block !important;
 padding-top: 0px !important;
 padding-bottom: 0px !important;
 
@@ -310,11 +310,12 @@ padding-bottom: 0px !important;
 
 
 .privacy-icon{
-width:51px;
+width:51px !important;
 max-width: 51px !important;
 height: 68px !important;
-margin-left: 190px;
-margin-right: 50px !important;
+padding-left:500px;
+
+
 
 }
 
