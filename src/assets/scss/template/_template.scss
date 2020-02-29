@@ -275,11 +275,16 @@ text-decoration: none;
 background: $primary-color;
 background-color: $primary-color; 
 
+
 }
 
+
+ 
+
+/*
 .footer-left{
-	padding-left:0px !important;
-	padding-top: 5px !important;
+	padding-left:0px !important; /*controls icons position*/
+/*	padding-top: 5px !important;
 	padding-right:0px !important;
 	padding-bottom: 0px !important;
 
@@ -294,30 +299,60 @@ padding-right: 50px !important;
 
  }
 }
+*/
+
+.social-icons{  /*controls icons position*/
 
 
-
-.social-icons{
-margin:0 none ;
-width: 287px !important;
-height:75px !important;
-line-height: 100% !important;
-display: inline-block !important;
-padding-top: 0px !important;
-padding-bottom: 0px !important;
-
+/*
  }
+
+.facebook_icon{
+	height:27px !important;
+	width:27px !important; 
+	padding-bottom: 0px !important; 
+	padding-left: 45px !important; 
+	padding-right: 16px !important;
+} 
+
+.twitter_icon{
+	height:25px !important; 
+	width:35px !important; 
+	padding-top: 16px;
+	padding-right: 0px;
+	padding-bottom: 0px !important; 
+	padding-left: 8px !important;
+
+}
+
+.youtube_icon{
+height:27px;
+width:32px !important; 
+padding-bottom: 0px !important;
+padding-left: 16px;
+}
+*/
+.instagram_icon{
+height:75px; 
+width:75px; 
+
+}
 
 
 .privacy-icon{
 width:51px !important;
-max-width: 51px !important;
 height: 68px !important;
-padding-left:500px;
-
-
 
 }
+
+.social-icons {
+   img{
+  width: 32px;
+  display: block;
+  margin: 0 auto;
+  }
+ }
+
 
 
 ._1,._2,._3,._4,._5,._6,._7{
