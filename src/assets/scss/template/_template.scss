@@ -279,80 +279,21 @@ background-color: $primary-color;
 }
 
 
- 
-
-/*
-.footer-left{
-	padding-left:0px !important; /*controls icons position*/
-/*	padding-top: 5px !important;
-	padding-right:0px !important;
-	padding-bottom: 0px !important;
-
-
-
-& > table > tbody > tr > th{
-
-padding-left: 50px !important;
-padding-top: 5px !important;
-padding-bottom: 0px !important;
-padding-right: 50px !important;
-
- }
-}
-*/
-
-.social-icons{  /*controls icons position*/
-
-
-/*
- }
-
-.facebook_icon{
-	height:27px !important;
-	width:27px !important; 
-	padding-bottom: 0px !important; 
-	padding-left: 45px !important; 
-	padding-right: 16px !important;
-} 
-
-.twitter_icon{
-	height:25px !important; 
-	width:35px !important; 
-	padding-top: 16px;
-	padding-right: 0px;
-	padding-bottom: 0px !important; 
-	padding-left: 8px !important;
-
-}
-
-.youtube_icon{
-height:27px;
-width:32px !important; 
-padding-bottom: 0px !important;
-padding-left: 16px;
-}
-*/
-.instagram_icon{
-height:75px; 
-width:75px; 
-
-}
-
-
-.privacy-icon{
-width:51px !important;
-height: 68px !important;
-
-}
-
 .social-icons {
-   img{
-  width: 32px;
-  display: block;
-  margin: 0 auto;
+	img{
+width: 32px !important;
+display: block !important;
   }
  }
 
+
+.privacy-icon{
+	img{  
+max-width: 51px !important;
+width:51px !important;
+height: 68px !important;
+ }
+}
 
 
 ._1,._2,._3,._4,._5,._6,._7{
