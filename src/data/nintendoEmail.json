@@ -1,0 +1,20 @@
+{
+ "title": "gameSale",
+
+
+ "name": {
+ 	"username": "Jfern"
+},
+
+ "toby":[
+ 	{
+  	"title": "Toby: The Secret Mine",
+ 	"price": "11.99",
+ 	"salePrice": "0.99",
+ 	"savePercent": "(-92%)",
+ 	"saleEndDate": "Sale Ends 02/26/20 08:59 AM PT",
+ 	"rating": "ESRB Rating: Everyone 10+ with Fantasy Violence, Mild Blood"
+     
+  },
+ ]
+}
