@@ -275,23 +275,43 @@ text-decoration: none;
 background: $primary-color;
 background-color: $primary-color; 
 
+& > tbody > tr > th{
+padding-left: 30px !important;
+padding-top: 5px !important;
+padding-right: 30px !important;
+padding-bottom: 5px !important;
 
+ }
 }
 
 
 .social-icons {
+	padding-top: 10px;
+	padding-bottom: 10px !important;
+
 	img{
-width: 32px !important;
+width: 27px !important;
 display: block !important;
+padding-left: 0px !important;
+padding-top: 0px !important;
+padding-right: 0px !important;
+padding-bottom: 0px !important;
+
   }
  }
 
 
 .privacy-icon{
+	padding-top: 0px;
+	padding-bottom: 0px !important;
 	img{  
 max-width: 51px !important;
 width:51px !important;
 height: 68px !important;
+padding-left: 250px !important;
+
+
+
  }
 }
 
